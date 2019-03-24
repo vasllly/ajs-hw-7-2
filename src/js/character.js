@@ -1,4 +1,9 @@
 /**
+ * Handles elements
+ * @module Character
+ */
+
+/**
  * Создает объект класса Character
  *
  * @param {string} name имя персонажа
