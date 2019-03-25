@@ -1,13 +1,15 @@
 /**
- * Handles elements
- * @module Character
- */
-
-/**
  * Создает объект класса Character
+ * @class Character
  *
  * @param {string} name имя персонажа
  * @param {string} type тип персонажа
+ *
+ * @property {string} Character.name имя персонажа
+ * @property {string} Character.type тип персонажа
+ * @property {number} Character.health здоровье персонажа
+ * @property {number} Character.attack атака персонажа
+ * @property {number} Character.defence защита персонажа
  *
  * @throws {RangeError} Длина имени от 2 до 10 символов.
  * @throws {TypeError} Такого типа персонажа не существует.
